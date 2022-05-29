@@ -1,0 +1,10 @@
+[package]
+name = "mdb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mongodb = { version = "2.2.1", features = ["sync"], default-features = false }
+serde = { version = "1.0.89", features = ["derive"], default-features = false }
